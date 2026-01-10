@@ -31,6 +31,11 @@ export function DashboardPage() {
                 Logout
               </Button>
             </div>
+
+            {/* ✅ 追加：導線 */}
+            <div className="mt-6 flex gap-2">
+              <Button onClick={() => navigate('/tasks')}>Go to Tasks</Button>
+            </div>
           </Card>
         </div>
       </div>
